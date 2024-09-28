@@ -6,6 +6,9 @@ on:
     branches:
       - main
 
+  # Add this to allow manual dispatching
+  workflow_dispatch:
+
 jobs:
   hello-world-job:
     runs-on: ubuntu-latest
